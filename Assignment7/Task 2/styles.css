@@ -1,0 +1,131 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bg{
+    position: fixed;
+    top: 45%;
+    width: 100%;
+    height: 55%;
+}
+
+.login-cont,form{
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: ease-in-out .5s;
+}
+
+.checkbox{
+    margin-left: -120px;
+}
+
+.checkbox label,.checkbox input{
+    display: inline;
+    margin-left: -110px;
+}
+
+.checkbox label{
+    font-weight: 100;
+    opacity: .7;
+}
+
+.login-cont input,.login-cont button{
+    margin: 10px;
+    letter-spacing: .2rem;
+    color: rgb(140, 163, 140);
+    background-color: rgb(35, 61, 56);
+} 
+
+.login-cont input{
+    width: 220px;
+}
+button{
+    transition: ease-in-out .5s;
+    border: none;
+}
+
+button:hover{
+    letter-spacing: 4px;
+    background-color: rgb(149, 194, 186);
+    border: none;
+}
+
+@media screen and (min-width: 500px){
+    .bg{
+        height: 120%;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .bg{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 60%;
+        height: 100%;
+    }
+
+    .login-cont{
+        display: flex;
+        margin-left: 60%;
+        margin-top: 25%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .login-cont input,.login-cont button{
+        margin: 15px;}
+} 
+
+@media screen and (min-width: 1100px){
+    .bg{
+        height: 120%;
+    }
+    .login-cont{
+        margin-top: 22%;
+    }
+    .login-cont input,.login-cont button{
+        margin: 15px;}
+}
+
+@media screen and (min-width: 1400px){
+    .bg{
+        height: 150%;
+    }
+    .login-cont{
+        margin-top: 20%;
+    }
+    .login-cont input,.login-cont button{
+        margin: 15px;}
+
+        
+}
+
+@media screen and (min-width: 1600px){
+    .bg{
+        height: 150%;
+    }
+    .login-cont{
+        margin-top: 18%;
+    }
+    .login-cont input,.login-cont button{
+        margin: 15px;}
+}
+
+@media screen and (min-width: 1700px){
+    .bg{
+        height: 150%;
+    }
+    .login-cont{
+        margin-top: 15%;
+    }
+    .login-cont input,.login-cont button{
+        margin: 15px;}
+}

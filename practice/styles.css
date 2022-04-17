@@ -1,0 +1,32 @@
+.h1-with-class{
+      padding: 5px;
+      
+      border: 2px solid grey;
+      border-radius: 5px;
+}
+
+
+.one{
+      border: 2px solid blue;
+      background-color: aqua;  
+}
+
+
+
+.two{
+      border: 2px solid blanchedalmond;
+      background-color: bisque;
+      
+}
+
+
+.three{
+      border: 2px solid brown;
+      background-color: burlywood;
+      
+}
+
+
+button{
+      size: 5px;
+}

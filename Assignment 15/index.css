@@ -1,0 +1,14 @@
+.Hello{
+      padding: 2px;
+      border: 2px solid grey;
+}
+
+.normal-size{
+      height: 200px;
+      width: 200px;
+}
+
+.large-size{
+      height: 400px;
+      width: 400px;
+}
